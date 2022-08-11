@@ -1,0 +1,76 @@
+:root {
+  --righteous-font: "Righteous", cursive;
+}
+body {
+  overflow: hidden;
+  color: white;
+  font-size: 1.5rem;
+  background-image: url("image.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hell {
+  background-color: rgba(50, 52, 80, 0.5);
+  min-height: 100vh;
+  min-width: 100vw;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.list {
+  height: 300px;
+  overflow: auto;
+}
+
+h1 {
+  font-family: serif;
+  /* font-style: italic; */
+  margin-top: 8rem;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.lead {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--righteous-font);
+}
+ul {
+  list-style: none;
+  /* margin-top: 2em; */
+  border-top: 2px solid white;
+}
+li {
+  border-bottom: 1px solid white;
+  padding: 0.5rem 0 0.5rem 0;
+  margin: 0 1rem 0 1rem;
+}
+
+.checkboxes {
+  float: right;
+  line-height: 15px;
+  width: 17px;
+  height: 17px;
+  background-color: #e9ecef;
+  border: 1px solid #e9ecef;
+  border-radius: 3px;
+}
+#btnClr {
+  font-size: 20px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-text {
+  font-family: fantasy;
+  /* margin-left: 500px; */
+}
+.navbar {
+  height: 70px;
+}
+h3 {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
